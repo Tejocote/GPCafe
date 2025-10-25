@@ -1,46 +1,66 @@
-# Astro Starter Kit: Basics
+# ☕ GPCafé - Sistema de Gestión para Cafeterías
 
-```sh
-pnpm create astro@latest -- --template basics
+Sistema web moderno desarrollado con Astro para la gestión integral de cafeterías, enfocado en optimizar operaciones y mejorar la experiencia del cliente.
+
+## 🎯 Características Principales
+
+- 💰 **Punto de Venta**: Sistema intuitivo para transacciones rápidas y seguras
+- 📦 **Control de Inventario**: Gestión eficiente de productos y materias primas
+- 👥 **Gestión de Clientes**: Base de datos centralizada de clientes
+- 👨‍💼 **Administración de Personal**: Control de empleados y turnos
+- 📅 **Agenda**: Sistema de citas y reservaciones
+- 🏢 **Proveedores**: Gestión de relaciones con proveedores
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Framework**: [Astro](https://astro.build/)
+- **Estilos**: [Tailwind CSS](https://tailwindcss.com/)
+- **Desarrollo**: JavaScript/TypeScript
+- **Control de Versiones**: Git
+
+## ⚙️ Instalación y Uso
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/tu-usuario/gpcafe.git
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+2. Instalar dependencias:
+```bash
+pnpm install
+```
 
-## 🚀 Project Structure
+3. Iniciar servidor de desarrollo:
+```bash
+pnpm dev
+```
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📋 Comandos Disponibles
+
+| Comando | Descripción |
+|---------|-------------|
+| `pnpm dev` | Inicia servidor en `localhost:4321` |
+| `pnpm build` | Compila proyecto para producción |
+| `pnpm preview` | Vista previa de producción |
+
+## 📁 Estructura del Proyecto
 
 ```text
 /
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+├── public/          # Archivos estáticos
+├── src/
+│   ├── assets/      # Recursos (imágenes, etc.)
+│   ├── components/  # Componentes reutilizables
+│   ├── layouts/     # Plantillas base
+│   └── pages/       # Páginas de la aplicación
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 📞 Contacto
 
-## 🧞 Commands
+Para más información o consultas profesionales:
+- 📧 Email: [cesarhernndezyes@gmail.com]
+- 💼 LinkedIn: [Cesar](https://www.linkedin.com/in/cesarintejocote/)
+- 🌐 Portfolio: [Próximamente xd](https://tejocote.netlify.app)
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
